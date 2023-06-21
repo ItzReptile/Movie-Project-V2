@@ -12,6 +12,10 @@
   color: white;
 }
 
+.yellow{
+  color: yellow;
+}
+
 .container {
   padding: 20px 40px;
   width: 100%;
@@ -86,7 +90,6 @@ LANDING
   font-size: 2rem;
 }
 
-
 .search-input {
   outline: none;
   border-color: white;
@@ -99,16 +102,50 @@ LANDING
   width: 100%;
 }
 
-.search-wrapper{
+.search-wrapper {
   padding: 24px 0;
 }
 
-.img-wrapper{
+.img-wrapper {
   max-width: 400px;
   margin: 0 auto;
 }
 
-.img-img{
+.img-img {
   width: 100%;
 }
 
+/*
+
+
+MOVIES 
+
+*/
+
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-img-wrapper {
+  max-width: 250px;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+.movie-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-img {
+  width: 100%;
+}
+
+.movie-title {
+  padding: 8px 0;
+}
+.movie-release-date{
+  padding-bottom: 12px;
+}
