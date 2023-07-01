@@ -7,6 +7,15 @@ import importantimage4 from "../assets/important 4.jpg";
 const Must = () => {
   return (
     <section className="important-section" id="#important">
+       <figure className="blob-wrapper">
+        <svg className="blob-5" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill="#0F62FE"
+            d="M54.7,-1.7C54.7,28.2,27.4,56.3,0.2,56.3C-27,56.3,-54,28.2,-54,-1.7C-54,-31.6,-27,-63.3,0.2,-63.3C27.4,-63.3,54.7,-31.6,54.7,-1.7Z"
+            transform="translate(100 100)"
+          />
+        </svg>{" "}
+      </figure>
       <div className="container">
         <div className="row">
           <h1 className="search-text white">A MUST WATCH:</h1>

@@ -19,13 +19,13 @@ const TvShows = () => {
             <h1 className="search-text white">Heres Our Favorite TV-Shows:</h1>
             <div className="movie">
               <button className="btn btn-right btn-black">
-              < FontAwesomeIcon icon={"arrow-right"}/>
+                <FontAwesomeIcon icon={"arrow-right"} />
               </button>
               <button className="btn btn-left btn-black">
-              < FontAwesomeIcon icon={"arrow-left"}/>
+                <FontAwesomeIcon icon={"arrow-left"} />
               </button>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={tvshowimg1} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -34,7 +34,7 @@ const TvShows = () => {
                 <h3 className="movie-release-date white">2021-2022</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={tvshowimg2} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -43,8 +43,8 @@ const TvShows = () => {
                 <h3 className="movie-release-date white">2021-Present</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
-                  <img src={tvshowimg3}className="movie-img" alt="" />
+                <figure className="movie-img-wrapper hover-border">
+                  <img src={tvshowimg3} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
                 </figure>
@@ -52,76 +52,73 @@ const TvShows = () => {
                 <h3 className="movie-release-date white">2008-2013</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={tvshowimg4} className="movie-img" alt="" />
-                  <div className="movie-blackground"></div>
-                  <h1 className="movie-info white">
-                    The Lord Of The Rings <br />
-                    The Ring Of Power
-                  </h1>
-                </figure>
-                <h1 className="movie-title white">Interstellar</h1>
-                <h3 className="movie-release-date white">2014</h3>
-              </div>
-              <div className="movie-about">
-                <figure className="movie-img-wrapper">
-                  <img src={tvshowimg5} className="movie-img" alt="" />
-                  <div className="movie-blackground"></div>
-                  <h1 className="movie-info white">MORE INFO</h1>
-                </figure>
-                <h1 className="movie-title white">Avengers Infinity war</h1>
-                <h3 className="movie-release-date white">2018</h3>
-              </div>
-              <div className="movie-about">
-                <figure className="movie-img-wrapper">
-                  <img src={tvshowimg6}className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
                 </figure>
                 <h1 className="movie-title white">
-                  Guardians Of The Galaxy <br />
-                  Volume 3
+                  Lord Of The Rings: <br />
+                  The Rings Of Power
                 </h1>
-                <h3 className="movie-release-date white">2023</h3>
+                <h3 className="movie-release-date white">2023-Present</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
+                  <img src={tvshowimg5} className="movie-img" alt="" />
+                  <div className="movie-blackground"></div>
+                  <h1 className="movie-info white">MORE INFO</h1>
+                </figure>
+                <h1 className="movie-title white">Jujustu Kaisen</h1>
+                <h3 className="movie-release-date white">2020-Present</h3>
+              </div>
+              <div className="movie-about">
+                <figure className="movie-img-wrapper hover-border">
+                  <img src={tvshowimg6} className="movie-img" alt="" />
+                  <div className="movie-blackground"></div>
+                  <h1 className="movie-info white">MORE INFO</h1>
+                </figure>
+                <h1 className="movie-title white">Arcane</h1>
+                <h3 className="movie-release-date white">2021</h3>
+              </div>
+              <div className="movie-about">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={tvshowimg7} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
                 </figure>
                 <h1 className="movie-title white">
-                  Spiderman:No Way Home
+                  The Walking Dead
                   <br />
                 </h1>
-                <h3 className="movie-release-date white">2022</h3>
+                <h3 className="movie-release-date white">2010-2022</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
-                  <img src={tvshowimg8}className="movie-img" alt="" />
+                <figure className="movie-img-wrapper hover-border">
+                  <img src={tvshowimg8} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
                 </figure>
-                <h1 className="movie-title white">Ready Player One</h1>
-                <h3 className="movie-release-date white">2018</h3>
+                <h1 className="movie-title white">Stranger Things</h1>
+                <h3 className="movie-release-date white">2016-Present</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={tvshowimg9} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
                 </figure>
-                <h1 className="movie-title white">Gravity</h1>
-                <h3 className="movie-release-date white">2013</h3>
+                <h1 className="movie-title white">Daredevil</h1>
+                <h3 className="movie-release-date white">2013-2018</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={tvshowimg10} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
                 </figure>
-                <h1 className="movie-title white">Godzilla Vs Kong</h1>
-                <h3 className="movie-release-date white">2021</h3>
+                <h1 className="movie-title white">You</h1>
+                <h3 className="movie-release-date white">2018-Present</h3>
               </div>
             </div>
           </div>

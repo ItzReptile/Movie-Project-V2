@@ -25,7 +25,7 @@ const Movies = () => {
               < FontAwesomeIcon icon={"arrow-left"}/>
               </button>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg1} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -38,7 +38,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2023</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg2} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -50,7 +50,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2023</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg3} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -59,7 +59,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">1998</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg4} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -68,7 +68,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2014</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg5} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -77,7 +77,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2018</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg6} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -89,7 +89,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2023</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg7} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -101,7 +101,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2022</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg8} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -110,7 +110,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2018</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg9} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
@@ -119,7 +119,7 @@ const Movies = () => {
                 <h3 className="movie-release-date white">2013</h3>
               </div>
               <div className="movie-about">
-                <figure className="movie-img-wrapper">
+                <figure className="movie-img-wrapper hover-border">
                   <img src={Movieimg11} className="movie-img" alt="" />
                   <div className="movie-blackground"></div>
                   <h1 className="movie-info white">MORE INFO</h1>
